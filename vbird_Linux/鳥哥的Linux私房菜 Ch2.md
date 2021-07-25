@@ -28,6 +28,5 @@ CD-ROM: /dev/cdrom
 ### 第六題
 目前在個人計算機上面常見的硬盤與主板的連接介面有哪兩個？
 硬盤與主板的介面大致有IDE、SATA、mSATA、M.2、AHCI、NVMe等幾種。
-個人計算機常見的一個是SATA和M.2。具體介紹可以參考[鏈接](https://baijiahao.baidu.com/s?id=1609938877285548708&wfr=spider&for=pc)
-————————————————  
+個人計算機常見的一個是SATA和M.2。具體介紹可以參考[鏈接](https://baijiahao.baidu.com/s?id=1609938877285548708&wfr=spider&for=pc)  
 [Source](https://blog.csdn.net/weixin_42188287/article/details/114311380)
