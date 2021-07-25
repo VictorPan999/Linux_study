@@ -144,7 +144,7 @@ DirectMap1G :映射TLB為1G的內存數量
 [Source](https://blog.csdn.net/shardy0/article/details/113994687)  
 ### 硬碟
 -------------------------------
-`sudo smartctl -i /dev/sda` 
+`sudo smartctl -i /dev/sda`   
 `apt-get install smartmontools` 後透過`sudo smartctl -i /dev/sda` 顯示硬碟型號及規格,
 或`apt-get install hdparm`後透過`sudo hdparm -i /dev/sda1` 取得更詳細的資訊  
 [Source](https://blog.longwin.com.tw/2014/02/linux-query-hardware-2014/)
