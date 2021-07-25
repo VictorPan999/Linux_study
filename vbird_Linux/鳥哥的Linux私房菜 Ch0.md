@@ -143,11 +143,11 @@ DirectMap1G :映射TLB為1G的內存數量
 [Source](https://blog.csdn.net/shardy0/article/details/113994687)
 ### 硬碟：sudo smartctl -i /dev/sda 
 `apt-get install smartmontools` 後透過`sudo smartctl -i /dev/sda` 顯示硬碟型號及規格,
-或`apt-get install hdparm`後透過`sudo hdparm -i /dev/sda1` 取得更詳細的資訊
+或`apt-get install hdparm`後透過`sudo hdparm -i /dev/sda1` 取得更詳細的資訊  
 [Source](https://blog.longwin.com.tw/2014/02/linux-query-hardware-2014/)
 
 ### 第四題
-找出第四代Intel i7 4790 CPU的：（1）與南橋溝通的DMI帶寬有多大？（2）二級緩存的容量有多大？（3）最大PCIe通道數量有多少？並據以說明主板上面PCIe插槽的數量限制。  
+找出第四代Intel i7 4790 CPU的：（1）與南橋溝通的DMI帶寬有多大？（2）二級緩存的容量有多大？（3）最大PCIe通道數量有多少？並據以說明主板上面PCIe插槽的數量限制。   
 [Source](https://www.techpowerup.com/cpu-specs/core-i7-9700.c2183)  
 
 以3.6GHz計算，DMI帶寬為：14.4Gb/s  
