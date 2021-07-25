@@ -79,5 +79,4 @@ e. 用戶與用戶組的規劃；
 f. 系統對一些硬體資源消耗較少；
 g. 對於便攜嵌入式系統有很好的適用性；
 h. 開源，背後有強大的開發團隊，遵循Open Source的開發標準。
-————————————————
 [Source](https://blog.csdn.net/weixin_42188287/article/details/114286846)
