@@ -25,11 +25,6 @@ lightgbm
 
 package remove:`conda remove —name myenv numpy`
 
-Python
-* https://zh-tw.coursera.org/specializations/python
-* https://www.codecademy.com/catalog/language/python
-驗收
-https://www.codewars.com/
 
 
 
