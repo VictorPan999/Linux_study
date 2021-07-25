@@ -51,7 +51,7 @@ MesloLGS NF Bold Italic.ttf
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
-## Resource:
+## Source:
 Power Level 10K
 [沈弘哲 zsh-powerlevel10k 教學 - 漂亮的 terminal](https://www.youtube.com/watch?v=5f8w7gYnnfU&t=44s)
 [twtrubiks zsh 搭配 powerlevel10k](https://github.com/twtrubiks/linux-note/tree/master/zsh-powerlevel10k-tutorual)
