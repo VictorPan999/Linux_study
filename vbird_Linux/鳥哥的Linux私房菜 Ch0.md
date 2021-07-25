@@ -93,11 +93,11 @@ address sizes ：可訪問地址空間位數
 ### 記憶體
 -------------------------------
 `cat /proc/meminfo`
-MemTotal :總內存
-MemFree :空閑內存
-MemAvailable :可用內存
-Buffers :給文件的緩沖大小
-Cached :高速緩沖存儲器
+MemTotal :總內存  
+MemFree :空閑內存  
+MemAvailable :可用內存  
+Buffers :給文件的緩沖大小  
+Cached :高速緩沖存儲器  
 SwapCached :被高速緩沖存儲用的交換空間的大小
 Active :活躍使用中的高速緩沖存儲器頁面文件大小
 Inactive :不經常使用中的告訴緩沖存儲器文件大小
@@ -147,19 +147,17 @@ DirectMap1G :映射TLB為1G的內存數量
 [Source](https://blog.longwin.com.tw/2014/02/linux-query-hardware-2014/)
 
 ### 第四題
-找出第四代Intel i7 4790 CPU的：（1）與南橋溝通的DMI帶寬有多大？（2）二級緩存的容量有多大？（3）最大PCIe通道數量有多少？並據以說明主板上面PCIe插槽的數量限制。
-[Source](https://www.techpowerup.com/cpu-specs/core-i7-9700.c2183)
+找出第四代Intel i7 4790 CPU的：（1）與南橋溝通的DMI帶寬有多大？（2）二級緩存的容量有多大？（3）最大PCIe通道數量有多少？並據以說明主板上面PCIe插槽的數量限制。  
+[Source](https://www.techpowerup.com/cpu-specs/core-i7-9700.c2183)  
 
-以3.6GHz計算，DMI帶寬為：14.4Gb/s
-四核的二級緩存為：1Mb
-PCIe3.0的速度約為1GB/s, 最多可以PCIe3.0的通道數量為14條。
+以3.6GHz計算，DMI帶寬為：14.4Gb/s  
+四核的二級緩存為：1Mb  
+PCIe3.0的速度約為1GB/s, 最多可以PCIe3.0的通道數量為14條。  
 [Source](https://blog.csdn.net/weixin_42188287/article/details/114262758)
 ### 第五題
 找出Intel SSD 520固態硬盤相關的功能列表，瞭解：（1）連接介面；（2）最大讀寫速度，以及（3）最大隨機讀寫數據（IOPS）等信息。
-參考網站
-Intel SSD 520
-連接介面：SATA 3.0 6G/s
-最大讀/寫速度：550/520MB/s
-最大隨機讀寫數據：50000/60000 IOPS
-————————————————
+Intel SSD 520  
+連接介面：SATA 3.0 6G/s  
+最大讀/寫速度：550/520MB/s  
+最大隨機讀寫數據：50000/60000 IOPS  
 [Source](https://blog.csdn.net/weixin_42188287/article/details/114262758)
