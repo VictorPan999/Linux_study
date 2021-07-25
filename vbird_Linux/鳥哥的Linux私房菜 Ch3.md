@@ -29,11 +29,11 @@ sun provides support for Sun’s partitioning scheme;
 loop provides support for raw disk access (loopback-style) — I’m not sure about the uses for this one.
 As you can see, the majority of these are for older systems, and you probably won’t need to create a partition table of any type other than gpt or msdos.
 
-For a new disk, I recommend gpt: it allows more partitions, it can be booted even in pre-UEFI systems (using grub), and supports disks larger than 2 TiB (up to 8 ZiB for 512-byte sector disks). Actually, if you don’t need to boot from the disk, I’d recommend not using a partitioning scheme at all and simply adding the whole disk to mdadm, LVM, or a zpool, depending on whether you use LVM (on top of mdadm or not) or ZFS.
+For a new disk, I recommend gpt: it allows more partitions, it can be booted even in pre-UEFI systems (using grub), and supports disks larger than 2 TiB (up to 8 ZiB for 512-byte sector disks). Actually, if you don’t need to boot from the disk, I’d recommend not using a partitioning scheme at all and simply adding the whole disk to mdadm, LVM, or a zpool, depending on whether you use LVM (on top of mdadm or not) or ZFS.  
 [Source](https://unix.stackexchange.com/questions/289389/what-are-the-differences-between-the-various-partition-tables)
 
 ## KDUMP
-kdump是Linux核心的一個功能，可在發生核心錯誤時建立核心轉儲。當被觸發時，kdump會匯出一個記憶體映像（也稱為vmcore），該映像可用於除錯和確定崩潰的原因。 主記憶體的轉儲映像作為可執行與可連結格式（ELF）物件匯出，可以在處理核心崩潰時通過/proc/vmcore直接存取，也可以自動儲存到本地可存取的檔案系統、 裸裝置或通過網路存取的遠端系統。
+kdump是Linux核心的一個功能，可在發生核心錯誤時建立核心轉儲。當被觸發時，kdump會匯出一個記憶體映像（也稱為vmcore），該映像可用於除錯和確定崩潰的原因。 主記憶體的轉儲映像作為可執行與可連結格式（ELF）物件匯出，可以在處理核心崩潰時通過/proc/vmcore直接存取，也可以自動儲存到本地可存取的檔案系統、 裸裝置或通過網路存取的遠端系統。  
 [Source](https://zh.wikipedia.org/zh-tw/Kdump)
 ## Parted
 ### Install:
@@ -76,7 +76,7 @@ esp
 palo
 The states can be either "on" or "off". To change a flag simply run "set" command within parted:
 `(parted) set 2 lba on`
-The above command sets lba flag to on for second partition. Verify the results with print
+The above command sets lba flag to on for second partition. Verify the results with print  
 [Source](https://www.tecmint.com/parted-command-to-create-resize-rescue-linux-disk-partitions/)
 ## 網路遮罩
 基本上你要先有一個認識 就是所謂的IPv4 的IP是有兩個段落 123.456.aaa.bbb 是一個在Class B的網段. 則123.456屬於網路地址 而aaa.bbb屬於主機地址
@@ -101,7 +101,7 @@ Binary: 11000000.10101000.01100100.01100101
 AND運算後
 11000000.10101000.01100100.00000000 (192.168.100.0) Subnet
 
-"""總而言之, Subnet Mask就是為了要讓電腦能夠像帶了一副眼鏡可以看清楚這個IP是屬於哪個網段的主機."""
+"""總而言之, Subnet Mask就是為了要讓電腦能夠像帶了一副眼鏡可以看清楚這個IP是屬於哪個網段的主機."""  
 [Source](https://www.mobile01.com/topicdetail.php?f=110&t=878758)
 ## 筆電設置
 關閉電源管理模組，因筆電可能使用特殊的節電裝置
@@ -112,7 +112,7 @@ nofb則是取消顯示卡上面的緩衝記憶體偵測。因為筆記型電腦�
 ## Grub
 GNU GRUB（簡稱「GRUB」）是一個來自GNU專案的啟動載入程式。GRUB是多啟動規範的實現，它允許使用者可以在電腦內同時擁有多個作業系統，並在電腦啟動時選擇希望執行的作業系統。GRUB可用於選擇作業系統分割區上的不同核心，也可用於向這些核心傳遞啟動參數。
 
-GNU GRUB的前身為Grand Unified Bootloader。它主要用於類Unix系統；同大多Linux發行版一樣，GNU系統也採用GNU GRUB作為它的啟動器。Solaris從10 1/06版開始在x86系統上也採用GNU GRUB作為啟動器。
+GNU GRUB的前身為Grand Unified Bootloader。它主要用於類Unix系統；同大多Linux發行版一樣，GNU系統也採用GNU GRUB作為它的啟動器。Solaris從10 1/06版開始在x86系統上也採用GNU GRUB作為啟動器。  
 [Source](https://zh.wikipedia.org/zh-tw/GNU_GRUB)
 ## 第3章習題
 ### 第一題
@@ -139,7 +139,7 @@ Mount point: Choose "/home"
 Size: Depends on your RAM.
 Type for the new partition: Primary
 Location for the new partition: Beginning of this space
-Use as: swap
+Use as: swap  
 [Source](https://askubuntu.com/questions/1234838/is-it-necessary-to-have-a-home-and-swap-partitions-in-20-04)
 
 ### 第二題
@@ -157,5 +157,5 @@ Use as: swap
 
 ### 第五題
 如果我的磁盤分區是使用MBR分區方式，且設置了4個主分區，但是磁盤還有空間，請問我還能不能使用這些空間？
-解：不能。由於主分區與擴展分區最多只能有四個，其中擴展分區最多只能有一個，如果想要劃分出四個分區且還要有預留剩餘空間，四個主分區是不適合的，因為，即使硬盤還有剩餘容量，無法再繼續劃分。
-[Source](https://blog.csdn.net/qq_41151659/article/details/94491657
+解：不能。由於主分區與擴展分區最多只能有四個，其中擴展分區最多只能有一個，如果想要劃分出四個分區且還要有預留剩餘空間，四個主分區是不適合的，因為，即使硬盤還有剩餘容量，無法再繼續劃分。  
+[Source](https://blog.csdn.net/qq_41151659/article/details/94491657)
