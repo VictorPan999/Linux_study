@@ -1,6 +1,6 @@
 # 鳥哥的Linux私房菜 Ch4
 ###### tags: `Linux` `鳥哥` 
-## 筆記
+## 指令
 ```
 [dmtsai@study ~]$ command  [-options]  parameter1  parameter2 ...
                      指令     選項        參數(1)     參數(2)
