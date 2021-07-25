@@ -86,7 +86,8 @@ cd ../var/log (relative)
 ```
 ## FHS & LSB
 創建Linux基礎標準是為了降低支持Linux平臺的總體成本。通過減少各個Linux發行版之間的差異，LSB大大降低了將應用程式移植到不同發行版所涉及的成本，並降低了這些應用程式的售後支持所涉及的成本和工作量。
-LSB 其實是 Linux Foundation 下的一個工程，FHS 是屬於 LSB 的一項工作
+LSB 其實是 Linux Foundation 下的一個工程，FHS 是屬於 LSB 的一項工作  
+[Source](http://linux.vbird.org/linux_basic/0210filepermission.php)  
 [Source](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)  
 [Source](https://blog.csdn.net/sunqian666888/article/details/84555146)  
 [Source](https://wiki.linuxfoundation.org/lsb/lsb-charter)  
