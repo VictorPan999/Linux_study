@@ -14,7 +14,6 @@ parameter1 parameter2.. 為依附在選項後面的參數，或者是 command �
 指令太長的時候，可以使用反斜線 (\) 來跳脫[Enter]符號，使指令連續到下一行。注意！反斜線後就立刻接特殊字符，才能跳脫！
 其他：
 在 Linux 系統中，英文大小寫字母是不一樣的。舉例來說， cd 與 CD 並不同。
-更多的介紹等到第十章 bash 時，再來詳述。
 
 * -a -l這種指令可以合併為 -al 也是一樣的
 
@@ -68,7 +67,7 @@ suspend    進入休眠模式
 * ctrl c可以中斷指令
 * ctrl d可以關閉文字界面
 * man page 中可以用"/"or"?"加上關鍵字進行查詢
-
+[source](http://linux.vbird.org/linux_basic/0160startlinux.php)
 ## 第4章習題
 ### 情景模擬題第一題
 1.我們在命令行界面，例如tty2裡面看到的歡迎界面，就是在那個login：之前的頁面（CentOS Linux 7 … ）是怎麼來的？
@@ -150,6 +149,5 @@ Kernel \r on an \m
 20.在終端裡面登錄後，看到的提示符KaTeX parse error: Expected 'EOF', got '#' at position 2: 與#̲有何不同？平時操作應該使用哪一…則代表一般身份使用者。依據提示字元的不同，我們可以約略判斷登入者身份。一般來說，建議日常操作使用一般身份使用者登入，即是$。
 ### 簡答題第二十一題
 21.我使用dmtsai這個賬號登錄系統了，請問我能不能使用reboot來重啟？若不能，請說明原因，若可以，請說明命令如何執行？
-解：理論上reboot僅能讓root運行。不過，如果dmtsai是在主機前面以圖形介面登陸時，則dmtsai還是可以透過圖形介面功能來關機。
-————————————————
+解：理論上reboot僅能讓root運行。不過，如果dmtsai是在主機前面以圖形介面登陸時，則dmtsai還是可以透過圖形介面功能來關機。  
 [Source](https://blog.csdn.net/qq_41151659/article/details/94491657)
